@@ -29,7 +29,7 @@ textarea {
     resize: none;
 }
 
-/* HEADER */
+/* ZONE HEADER */
 nav ul{
     background-color: white;
     color: black;
@@ -41,15 +41,84 @@ nav ul{
     padding: 25px 200px;
 }
 
+nav a{
+    color: black;
+}
+
 .banner{
+    position: relative;
     background-image: url(../images/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 30vh;
+    height: 50vh;
 }
 
 .titre{
-    background-image: url(/assets/images/Resident_Evil_4_Logo_Light_Outlined.png);
     position: absolute;
-    height: 10vh;
+    background-image: url(/assets/images/Resident_Evil_4_Logo_Light_Outlined.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30vh;
+    width: 100%;
+    top: 10vh;
+}
+
+#classic{
+    color: white;
+    font-size: 3vh;
+    text-align: center;
+    position: absolute;
+    height: 30vh;
+    width: 100%;
+    top: 38vh;
+}
+
+
+/* SECTION => SURVIVE */
+
+#survive{
+    padding: 3% 0%;
+    text-align: center;
+}
+
+#survive h2{
+    margin-bottom: 3vh;
+}
+
+#survive p{
+    margin: 0 50vh 3vh 50vh;
+}
+
+#survive a{
+    color: white;
+    padding: 10px 25px;
+    background-color: rgb(203, 67, 53);
+}
+
+main h2{
+    text-align: center;
+}
+
+
+/* DIV => CONTAINER */
+
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 25%;
+    margin: 2rem 1rem;
+    padding-bottom: 3rem;
+    background-color: rgb(40, 39, 37);
+    color: white;
+
+    /* position: relative; */
+}
+
+#container img{
+    width: 100%;
+    object-fit: cover;
 }
